@@ -23,7 +23,7 @@
         }
 
         body {
-            background: url('fon.png');
+            background: url('site_bg.png');
             background-size: cover;
             color: #fff;
             font-family: 'Intro', Arial, sans-serif;
@@ -644,20 +644,6 @@
     transform: translateY(2px);
 }
 
-    .overlay {width: 100%; height:100%; display:block;}
-	#nubexDiv {
-		top: 0; bottom: 0; left: 0; right: 0;
-		position: fixed;
-		overflow: hidden;
-	}
-	#nubexVideo {
-		top: 0; left: 0;
-		position: absolute;
-		width: auto; height: auto;
-		min-width: 100%; 
-		min-height: 100%; 
-	}
-
 
     .language-selection {
       position: relative;
@@ -693,11 +679,6 @@
   </style>
 </head>
 <body>
-	<div id="nubexDiv" class="overlay">
-        <video id="nubexVideo" width="100%" height="auto" loop="loop" autoplay="autoplay" preload="auto" muted>
-             <source src="site_bg.mp4"></source>
-        </video>
-      </div>
 
   <div class="language-selection">
     <div class="language-option" onclick="changeLanguage('en')">
